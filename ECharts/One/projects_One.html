@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据可视化</title>
+    <link rel="stylesheet" href="one.css"/>
+</head>
+<body>
+    <header>
+        <h1>数据可视化-ECharts</h1>
+        <div class="showTime"></div>
+    </header>
+    <div class="body">
+        <!--准备一个具有宽高的盒子-->
+        <div class="box bar"></div>
+        <div class="box bar2"></div>
+        <div class="box fold">
+            <select class="select">
+                <option value="0">2020年</option>
+                <option value="1">2021年</option>
+            </select>
+            <div class="foldLine"></div>
+        </div>
+        <div class="box fold2"></div>
+        <div class="box pie"></div>
+        <div class="box pie2"></div>
+    </div>
+    <script src="../flexible.js"></script>
+    <script src="../getTime.js"></script>
+    /<!--引入echarts.js-->
+    <script src="../echarts.min.js"></script>
+    <script src="./js/bar.js"></script>
+    <script src="./js/bar2.js"></script>
+    <script src="./js/fold.js"></script>
+    <script src="./js/fold2.js"></script>
+    <script src="./js/pie.js"></script>
+    <script src="./js/pie2.js"></script>
+</body>
+</html>

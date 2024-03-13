@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url("../image/bg.jpg") no-repeat top center;
+    min-width: 1024px;
+    line-height: 1.15;
+}
+
+header{
+    position: relative;
+    height: 100px;
+    background: url("../image/head_bg.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+header h1{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    line-height: 80px;
+}
+
+header .showTime{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    line-height: 75px;
+    font-size: 20px;
+    color:rgb(255, 255, 0.7);
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.body .box{
+    margin:50px;
+    height: 250px;
+    width: 400px;
+    color: white;
+    border: 2px solid rgb(202, 202, 202);
+}
+
+.body .fold select{
+    margin-left:50%;
+    transform: translate(-100%);
+    outline: none;
+}
+
+.body .fold .foldLine{
+    height: 230px;
+    width: 400px;
+}
